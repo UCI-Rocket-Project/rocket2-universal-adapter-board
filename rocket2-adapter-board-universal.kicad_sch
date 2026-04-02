@@ -4885,7 +4885,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 112.522 72.136 0)
 			(effects
 				(font
@@ -4902,7 +4902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
 			(at 115.57 71.12 0)
 			(effects
 				(font
