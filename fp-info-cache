@@ -1,4 +1,4 @@
-26678868429669352
+26705568879550798
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105469,12 +105469,26 @@ igbt diode module
 25
 25
 UCIRP-KiCAD-Lib
-AM-K-PCB
+5V_LDO AS78L05RTR-E1
 
 
 0
 3
-2
+3
+UCIRP-KiCAD-Lib
+10V_LDO UA78M10CKVURG3
+
+
+0
+7
+3
+UCIRP-KiCAD-Lib
+20V_LDO BA78M20FP-E2
+
+
+0
+7
+3
 UCIRP-KiCAD-Lib
 BMI088
 
@@ -105504,6 +105518,20 @@ CONN_73391-0070_MOL
 5
 5
 UCIRP-KiCAD-Lib
+Connector_VGA_Vertical
+
+
+0
+17
+16
+UCIRP-KiCAD-Lib
+Diode_Schottky (100V_80A) FSV8100V
+
+
+0
+12
+2
+UCIRP-KiCAD-Lib
 EC4SAW-xxSxxN
 
 
@@ -105511,7 +105539,7 @@ EC4SAW-xxSxxN
 8
 7
 UCIRP-KiCAD-Lib
-GC-XPORT
+Embedded_Ethernet GC-XPORT
 
 
 0
@@ -105546,6 +105574,27 @@ IND_VLS6045EX-6R8M
 2
 2
 UCIRP-KiCAD-Lib
+Instrumentation_Amplifiers INA126
+
+
+0
+8
+8
+UCIRP-KiCAD-Lib
+Load Cell Port
+
+
+0
+4
+4
+UCIRP-KiCAD-Lib
+MCU STM32F105RCT6
+
+
+0
+64
+64
+UCIRP-KiCAD-Lib
 MODULE_RASPBERRY_PI_4B_4GB
 
 
@@ -105566,6 +105615,20 @@ NSR20F30NXT5G
 0
 2
 2
+UCIRP-KiCAD-Lib
+Op-amp MCP6001
+
+
+0
+5
+5
+UCIRP-KiCAD-Lib
+PETER
+
+
+0
+0
+0
 UCIRP-KiCAD-Lib
 QFP50P1600X1600X160-100N
 
@@ -105595,6 +105658,27 @@ MP2338GTL-Z
 8
 8
 UCIRP-KiCAD-Lib
+Solenoid TH
+
+
+0
+2
+1
+UCIRP-KiCAD-Lib
+TC_ADC MAX31855JASA+
+
+
+0
+8
+8
+UCIRP-KiCAD-Lib
+TC_Connector AM-K-PCB
+
+
+0
+3
+2
+UCIRP-KiCAD-Lib
 UCIRP_Logo_1
 
 
@@ -105623,12 +105707,33 @@ UCIRP_Logo_4
 0
 0
 UCIRP-KiCAD-Lib
+Untitled
+
+
+0
+24
+24
+UCIRP-KiCAD-Lib
+Untitled_1
+
+
+0
+4
+4
+UCIRP-KiCAD-Lib
 ZOE-M8Q
 
 
 0
 51
 51
+UCIRP-KiCAD-Lib
+optocoupler
+
+
+0
+4
+4
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
