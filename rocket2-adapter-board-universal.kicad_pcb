@@ -835,7 +835,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -0.7 -1.7 90)
+			(at 2.5 1.4 180)
 			(layer "F.SilkS")
 			(uuid "73e1f249-5e90-4b92-8190-321e9d07c104")
 			(effects
@@ -1531,7 +1531,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.43 0)
+			(at 0 1.6 0)
 			(layer "F.SilkS")
 			(uuid "04c7dd5a-9178-47d2-9003-c638b8ef6ccd")
 			(effects
@@ -2110,7 +2110,7 @@
 		(descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F1"
-			(at -0.8875 -1.7 90)
+			(at 2.9125 0.1 90)
 			(layer "F.SilkS")
 			(uuid "ecb5f0c1-4adb-4b7e-a555-2e1cc7c104a9")
 			(effects
