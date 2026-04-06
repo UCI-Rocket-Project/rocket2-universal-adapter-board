@@ -2080,6 +2080,14 @@
 		(uuid "db8496f9-1c6b-4b7b-a315-03d1ba9df6dc")
 	)
 	(no_connect
+		(at 99.06 63.5)
+		(uuid "2859ae5e-221d-41c7-bdb3-6bdde7c4e09c")
+	)
+	(no_connect
+		(at 91.44 73.66)
+		(uuid "454fcc70-c77f-4307-b942-58445d5d6e76")
+	)
+	(no_connect
 		(at 49.53 121.92)
 		(uuid "a9c31d03-dfd1-4271-b9f0-4bd135304e79")
 	)
@@ -2122,16 +2130,6 @@
 			(type default)
 		)
 		(uuid "0cca5afb-8621-463a-a67e-3ab5503d6208")
-	)
-	(wire
-		(pts
-			(xy 105.41 71.12) (xy 105.41 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f639857-afb2-4224-8f58-3872bfcf5ca1")
 	)
 	(wire
 		(pts
@@ -2385,16 +2383,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 63.5) (xy 105.41 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87b15efb-b0d5-46ee-85b9-1cc1e2f7ba33")
-	)
-	(wire
-		(pts
 			(xy 161.29 119.38) (xy 161.29 111.76)
 		)
 		(stroke
@@ -2442,16 +2430,6 @@
 			(type default)
 		)
 		(uuid "9cf195de-776f-4256-b955-51421f54aba4")
-	)
-	(wire
-		(pts
-			(xy 91.44 73.66) (xy 91.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a635f7d5-c80d-48ef-82dd-dc850fe2abb6")
 	)
 	(wire
 		(pts
@@ -2592,16 +2570,6 @@
 			(type default)
 		)
 		(uuid "f7365146-f5f6-4fd1-af7f-a67153849db3")
-	)
-	(wire
-		(pts
-			(xy 99.06 63.5) (xy 105.41 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8882c97-675a-455a-9889-b5eb5cb6b5c0")
 	)
 	(wire
 		(pts
@@ -3832,72 +3800,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7adefeca-4572-4588-a9b5-2f911d3ea2fa")
-		(property "Reference" "#PWR01"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS GND"
-			(at 85.09 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "713a91a2-ce25-4dfa-83ef-f034bd97ca21")
-		)
-		(instances
-			(project ""
-				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 44.45 121.92 0)
 		(mirror y)
 		(unit 1)
@@ -4090,72 +3992,6 @@
 			(project "rocket2-adapter-board-universal"
 				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ea9b4f4-737d-4481-8291-2d044c050bbe")
-		(property "Reference" "#PWR016"
-			(at 105.41 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 105.41 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61bdc48c-d1e7-4cac-817e-f7118c6de7aa")
-		)
-		(instances
-			(project "rocket2-adapter-board-load-cell"
-				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5261,91 +5097,6 @@
 			(project "rocket2-adapter-board-universal"
 				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 105.41 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0867073-8101-4150-8947-b75066796f44")
-		(property "Reference" "R3"
-			(at 102.362 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 102.362 69.596 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/16079-0603WAJ0103T5E/C15401"
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAJ0103T5E"
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0133de70-025d-4f57-9570-d29637f0f8e0")
-		)
-		(pin "2"
-			(uuid "ebee3d8d-44c2-4796-8675-740bd146b0cf")
-		)
-		(instances
-			(project "rocket2-adapter-board-load-cell"
-				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
-					(reference "R3")
 					(unit 1)
 				)
 			)
