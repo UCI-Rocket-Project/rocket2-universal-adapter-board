@@ -2056,6 +2056,12 @@
 		(uuid "19b68773-13d7-4f6c-9438-b9aa38a55b45")
 	)
 	(junction
+		(at 36.83 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f29a7e3-d604-4fbf-ada2-fc678d9db578")
+	)
+	(junction
 		(at 100.33 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2066,12 +2072,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36c63454-27dd-42a1-b05c-399306201587")
-	)
-	(junction
-		(at 46.99 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fa0d17e-6bbf-43f9-893c-d4f5c425223c")
 	)
 	(junction
 		(at 100.33 55.88)
@@ -2103,6 +2103,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 49.53) (xy 36.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071cd2ce-367a-4217-baea-3f219c53d0fa")
+	)
+	(wire
+		(pts
 			(xy 99.06 118.11) (xy 99.06 115.57)
 		)
 		(stroke
@@ -2130,16 +2140,6 @@
 			(type default)
 		)
 		(uuid "0cca5afb-8621-463a-a67e-3ab5503d6208")
-	)
-	(wire
-		(pts
-			(xy 46.99 50.8) (xy 46.99 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10a05cd2-ba47-4689-a3ec-61537ca877c6")
 	)
 	(wire
 		(pts
@@ -2253,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 59.69) (xy 46.99 58.42)
+			(xy 36.83 59.69) (xy 36.83 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2273,17 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 49.53) (xy 52.07 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e86127a-4115-4b2e-ac83-415982f81700")
-	)
-	(wire
-		(pts
-			(xy 52.07 45.72) (xy 52.07 49.53)
+			(xy 54.61 45.72) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2320,6 +2310,36 @@
 			(type default)
 		)
 		(uuid "60fa53ff-e90b-443b-8327-916f0a436684")
+	)
+	(wire
+		(pts
+			(xy 36.83 49.53) (xy 46.99 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c7410e-d18e-4fbf-af34-cb28551997c9")
+	)
+	(wire
+		(pts
+			(xy 52.07 49.53) (xy 54.61 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c44a8c-03ed-4243-802e-20372e0e0b97")
+	)
+	(wire
+		(pts
+			(xy 36.83 49.53) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e9c4be-cc04-4ff7-9582-acf4c8dc1190")
 	)
 	(wire
 		(pts
@@ -2503,16 +2523,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 49.53) (xy 36.83 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4bfe5b4-fbd6-4a7f-9fd8-0ed01a06ed2f")
-	)
-	(wire
-		(pts
 			(xy 82.55 66.04) (xy 83.82 66.04)
 		)
 		(stroke
@@ -2550,16 +2560,6 @@
 			(type default)
 		)
 		(uuid "ec11eda3-b59d-4034-b29a-e985b3422199")
-	)
-	(wire
-		(pts
-			(xy 44.45 49.53) (xy 46.99 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f68e0f29-ee56-4486-b2f2-7e85f782a3c2")
 	)
 	(wire
 		(pts
@@ -2811,7 +2811,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 40.64 49.53 90)
+		(at 29.21 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2819,7 +2819,7 @@
 		(dnp no)
 		(uuid "1265214d-6067-4cc3-962c-473178dc3edf")
 		(property "Reference" "F1"
-			(at 40.64 45.466 90)
+			(at 29.21 45.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2827,7 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 40.64 47.498 90)
+			(at 29.21 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2835,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
-			(at 40.64 51.308 90)
+			(at 29.21 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2844,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/Keystone-3568/C5249699"
-			(at 40.64 49.53 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2853,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 40.64 49.53 0)
+			(at 29.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +3010,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 46.99 54.61 270)
+		(at 36.83 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3019,7 +3019,7 @@
 		(fields_autoplaced yes)
 		(uuid "35c103cc-e6d5-436c-92a4-265cc7fe450a")
 		(property "Reference" "D1"
-			(at 49.53 53.3399 90)
+			(at 39.37 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3028,7 @@
 			)
 		)
 		(property "Value" "~27V"
-			(at 49.53 55.8799 90)
+			(at 39.37 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3037,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 46.99 54.61 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3046,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/DiodesIncorporated-MMSZ5254BQ_7F/C6909633"
-			(at 46.99 54.61 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,7 +3055,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 46.99 54.61 0)
+			(at 36.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +3064,7 @@
 			)
 		)
 		(property "Alt. Digikey Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/BZT52C12-13-F/768854"
-			(at 46.99 54.61 90)
+			(at 36.83 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +3073,7 @@
 			)
 		)
 		(property "Alt. MPN" "BZT52C12-13-F"
-			(at 46.99 54.61 90)
+			(at 36.83 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3082,7 @@
 			)
 		)
 		(property "Alt. Manufacturer" "Diodes Incorporated"
-			(at 46.99 54.61 90)
+			(at 36.83 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +3670,7 @@
 	)
 	(symbol
 		(lib_id "power:VD")
-		(at 52.07 45.72 0)
+		(at 54.61 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3678,7 +3678,7 @@
 		(dnp no)
 		(uuid "71e03cad-cbcc-4b57-bc0e-10ad9a4b1201")
 		(property "Reference" "#PWR04"
-			(at 52.07 49.53 0)
+			(at 54.61 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 52.07 40.64 0)
+			(at 54.61 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 45.72 0)
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 45.72 0)
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VD\""
-			(at 52.07 45.72 0)
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4109,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 27.94 49.53 270)
+		(at 49.53 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4117,7 +4117,7 @@
 		(dnp no)
 		(uuid "9c5b50b0-3001-45b9-a793-3970351e78fa")
 		(property "Reference" "R1"
-			(at 27.94 51.562 90)
+			(at 49.53 51.562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4125,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 27.94 53.594 90)
+			(at 49.53 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4133,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 27.94 49.53 0)
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +4142,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/16080-0603WAJ0000T5E/C15402"
-			(at 27.94 49.53 0)
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4151,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 27.94 49.53 0)
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4160,7 @@
 			)
 		)
 		(property "MPN" "0603WAJ0000T5E"
-			(at 27.94 49.53 90)
+			(at 49.53 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4169,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 27.94 49.53 90)
+			(at 49.53 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +4178,7 @@
 			)
 		)
 		(property "Alt. Digikey Link" "SR0603JR-7T1KL"
-			(at 27.94 49.53 90)
+			(at 49.53 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4187,7 @@
 			)
 		)
 		(property "Alt. MPN" "https://www.digikey.com/en/products/detail/yageo/SR0603JR-7T1KL/9696404"
-			(at 27.94 49.53 90)
+			(at 49.53 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +4196,7 @@
 			)
 		)
 		(property "Alt. Manufacturer" "YAGEO"
-			(at 27.94 49.53 90)
+			(at 49.53 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "UCIRP-KiCAD-Lib:Pad_Socket 16AWG_Solenoid_Wires"
 			(at 107.95 118.11 0)
 			(effects
 				(font
@@ -4962,7 +4962,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 59.69 0)
+		(at 36.83 59.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4971,7 +4971,7 @@
 		(dnp no)
 		(uuid "e5bbcbf0-d0a7-404b-a7f7-76d26a90559f")
 		(property "Reference" "#PWR015"
-			(at 46.99 66.04 0)
+			(at 36.83 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +4980,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 64.77 0)
+			(at 36.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +4988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 59.69 0)
+			(at 36.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +4997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 59.69 0)
+			(at 36.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 59.69 0)
+			(at 36.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
