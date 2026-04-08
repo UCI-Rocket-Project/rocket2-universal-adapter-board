@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,D_SOD-123,1,~27V,
+F1,Fuseholder_Blade_Mini_Keystone_3568,1,1A,
+J2,Pad_Socket 9.4mm_MiniDIN,1,Conn_01x04_Socket,
+J3,Pad_Socket 16AWG_Solenoid_Wires,1,Conn_01x02_Socket,
+J4,PinHeader_1x04_P2.54mm_Vertical,1,Conn_01x04_Socket,
+J5,Connector_VGA_Vertical,1,DSUB_15pin/VGA Veritical  Female,
+"R1, R2",0603,2,0,0603WAJ0000T5E
+VR1,Potentiometer P160KNPD4FC20B10K,1,10k,P160KNPD-4FC20B10K

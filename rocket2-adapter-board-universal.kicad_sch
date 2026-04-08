@@ -2868,7 +2868,7 @@
 			(uuid "e7f9930c-d339-4734-ac90-e3905ec6689e")
 		)
 		(instances
-			(project ""
+			(project "rocket2-adapter-board-universal"
 				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
 					(reference "F1")
 					(unit 1)
@@ -3097,7 +3097,7 @@
 			(uuid "b0e85a5f-af32-46a5-a6bc-d6c5f1e6130d")
 		)
 		(instances
-			(project ""
+			(project "rocket2-adapter-board-universal"
 				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
 					(reference "D1")
 					(unit 1)
@@ -3188,7 +3188,7 @@
 			(uuid "7ae0cc15-d2de-4a63-9089-7a94d196454d")
 		)
 		(instances
-			(project ""
+			(project "rocket2-adapter-board-universal"
 				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
 					(reference "VR1")
 					(unit 1)
@@ -3357,7 +3357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 59.69 156.21 0)
 			(effects
 				(font
@@ -4099,7 +4099,7 @@
 			(uuid "ec23f26c-9474-474e-be37-020d1a3c4610")
 		)
 		(instances
-			(project ""
+			(project "rocket2-adapter-board-universal"
 				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
 					(reference "J5")
 					(unit 1)
@@ -4247,7 +4247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 59.69 172.72 0)
 			(effects
 				(font
@@ -4407,7 +4407,7 @@
 			(uuid "32ed928b-8653-430f-9088-7e911d788f59")
 		)
 		(instances
-			(project "rocket2-adapter-board-load-cell"
+			(project "rocket2-adapter-board-universal"
 				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
 					(reference "#PWR05")
 					(unit 1)
@@ -4824,7 +4824,7 @@
 			(uuid "9908c779-071a-4df8-a24f-a978e68951ba")
 		)
 		(instances
-			(project ""
+			(project "rocket2-adapter-board-universal"
 				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
 					(reference "J3")
 					(unit 1)
@@ -4860,7 +4860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 25.4 156.21 0)
 			(effects
 				(font
@@ -4888,7 +4888,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "rocket2-adapter-board-universal"
 				(path "/ebb2d496-aa62-4c9f-aa1f-c2b6bd418c17"
 					(reference "H1")
 					(unit 1)
@@ -4924,7 +4924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 25.4 172.72 0)
 			(effects
 				(font
